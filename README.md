@@ -7,6 +7,6 @@
  * `Contraseña: tienda123progweb`
 
 
-* Credenciales /admin
+# Credenciales /admin
 * ` admin `
 * `123456 `
