@@ -1,0 +1,86 @@
+{% extends 'store/main.html' %}
+{% load static %}
+
+
+{% block title %}
+   Nosotros
+{% endblock title %}
+   
+
+{% block content %}
+   
+
+     <section class="about">
+
+        <div class="row">
+     
+           <div class="image">
+              <img src="{% static 'images/artaud.png' %}" alt="">
+            </div>
+            
+           <div class="content">
+              <h3>¿Por qué elegirnos?</h3>
+              <p>¡Bienvenidos a nuestra disquería, tu destino musical perfecto!</p>
+               <p>Elegirnos significa acceder a una amplia selección de música, contar con la guía de expertos, disfrutar de la autenticidad y la calidad de nuestros productos, sumergirte en un ambiente acogedor, participar en eventos emocionantes y recibir un servicio al cliente excepcional. Ven a visitarnos y descubre todo lo que tenemos para ofrecerte en el maravilloso mundo de la música. ¡Te esperamos con los brazos abiertos en nuestra disquería!</p>
+              <a href="{% url 'nosotros' %}" class="btn"> Contactanos</a>
+            </div>
+     
+        </div>
+     
+      </section>
+      
+     <section class="reviews">
+   
+        <h1 class="heading">Equipo </h1>
+     
+        <div class="swiper reviews-slider">
+     
+        <div class="swiper-wrapper">
+           
+           <div class="swiper-slide slide">
+              <img src="{% static 'images/diego.png' %}" alt="">
+              <p>A cargo de administrar la página web y revisar que todo esté en orden, como también actualizar información que se le diga.</p>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+              </div>
+              <h3> Diego</h3>
+           </div>
+           
+           <div class="swiper-slide slide">
+              <img src="{% static 'images/milla.png' %}" alt="">
+              <p>Encargada de la administración de la tienda y creadora de esta, gestionando a todos los trabajadores y las actividades a realizar.
+            </p>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+               </div>
+               <h3>Millaray</h3>
+            </div>
+     
+           <div class="swiper-slide slide">
+              <img src="{% static 'images/pia.png' %}" alt="">
+              <p>Encargado de las ventas de los discos de manera presencial, posee conocimiento sobre los artistas, álbumes y géneros musicales que se deseen y gestiona el stock.</p>
+              <div class="stars">
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+                 <i class="fas fa-star"></i>
+               </div>
+              <h3> Pía </h3>
+           </div>
+     
+         </div>
+         
+        
+      </div>
+      
+   </section>
+   {% endblock content %}
