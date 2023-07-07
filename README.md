@@ -5,3 +5,8 @@
  * `http://172.111.10.119/phpmyadmin/`
  * `usuario: tienda`
  * `Contraseña: tienda123progweb`
+
+
+* Credenciales /admin
+* ` admin `
+* `123456 `
